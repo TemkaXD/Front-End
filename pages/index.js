@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 export default function Home() {
   const router = useRouter();
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center py-10">
+    <div className="min-h-screen bg-black flex items-center justify-center py-10">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl w-full px-4">
         <button onClick={() =>{router.push("cv")}} className="bg-white shadow-lg rounded-lg p-6">
           <h2 className="text-xl font-bold mb-4 text-center text-black">CV</h2>
